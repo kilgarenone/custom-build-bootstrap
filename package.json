@@ -1,0 +1,20 @@
+{
+  "name": "custombootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "scss-powertools scss/custom.scss output/compiled.css",
+    "build:prod": "scss-powertools --production scss/custom.scss output/compiled.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "scss-powertools": "^1.1.0"
+  }
+}
