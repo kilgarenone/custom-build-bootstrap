@@ -2,10 +2,10 @@
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
+@import "bootstrap/scss/reboot";
 
 // Components
 .t-t {
-  @import "bootstrap/scss/reboot";
   @import "bootstrap/scss/forms";
   @import "bootstrap/scss/buttons";
   @import "bootstrap/scss/dropdown";
